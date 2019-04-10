@@ -178,7 +178,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.25, 203.333374, 32.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 205.833374, 32.0, 23.0 ],
+					"presentation_rect" : [ 328.0, 138.833374, 32.0, 23.0 ],
 					"style" : "",
 					"text" : "分",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -195,7 +195,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.25, 102.333389, 32.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 119.833389, 32.0, 23.0 ],
+					"presentation_rect" : [ 328.0, 52.833389, 32.0, 23.0 ],
 					"style" : "",
 					"text" : "分",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -212,7 +212,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 568.25, 203.333374, 32.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.0, 205.833374, 32.0, 23.0 ],
+					"presentation_rect" : [ 246.0, 138.833374, 32.0, 23.0 ],
 					"style" : "",
 					"text" : "時",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -229,7 +229,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 568.25, 102.333389, 32.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.0, 119.833389, 32.0, 23.0 ],
+					"presentation_rect" : [ 246.0, 52.833389, 32.0, 23.0 ],
 					"style" : "",
 					"text" : "時",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -248,7 +248,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 516.25, 159.997864, 149.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 162.497864, 149.0, 40.0 ],
+					"presentation_rect" : [ 194.0, 95.497864, 149.0, 40.0 ],
 					"style" : "",
 					"text" : "ポンプ終了時刻",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -268,7 +268,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 516.25, 59.0, 149.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 76.5, 149.0, 40.0 ],
+					"presentation_rect" : [ 194.0, 9.5, 149.0, 40.0 ],
 					"style" : "",
 					"text" : "ポンプ起動時刻",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -287,7 +287,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 598.25, 203.333374, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.0, 205.833374, 50.0, 23.0 ],
+					"presentation_rect" : [ 276.0, 138.833374, 50.0, 23.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -304,7 +304,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.25, 203.333374, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 205.833374, 50.0, 23.0 ],
+					"presentation_rect" : [ 194.0, 138.833374, 50.0, 23.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -321,7 +321,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 598.25, 102.333389, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 88.0, 119.833389, 50.0, 23.0 ],
+					"presentation_rect" : [ 276.0, 52.833389, 50.0, 23.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -338,7 +338,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.25, 102.333389, 50.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 119.833389, 50.0, 23.0 ],
+					"presentation_rect" : [ 194.0, 52.833389, 50.0, 23.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -355,7 +355,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.5, 2.0, 113.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.5, 2.0, 113.0, 40.0 ],
+					"presentation_rect" : [ 30.5, 10.0, 113.0, 40.0 ],
 					"style" : "",
 					"text" : "現在時刻",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -399,7 +399,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 333.0, 279.5, 48.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 40.5, 48.0, 23.0 ],
+					"presentation_rect" : [ 121.0, 48.5, 48.0, 23.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -417,7 +417,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 278.0, 279.5, 48.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 58.0, 41.0, 48.0, 23.0 ],
+					"presentation_rect" : [ 66.0, 49.0, 48.0, 23.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -435,7 +435,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 223.0, 279.5, 48.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 41.0, 48.0, 23.0 ],
+					"presentation_rect" : [ 11.0, 49.0, 48.0, 23.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -838,7 +838,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 767.0, 59.0, 176.0, 268.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -7.5, -18.0, 176.0, 268.0 ],
+					"presentation_rect" : [ -3.25, -2.0, 371.5, 181.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}

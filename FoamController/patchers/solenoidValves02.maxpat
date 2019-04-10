@@ -149,7 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.0, 636.5, 66.0, 40.0 ],
+					"patching_rect" : [ 306.0, 621.5, 66.0, 40.0 ],
 					"style" : "",
 					"text" : "ON / OFF"
 				}
@@ -163,7 +163,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 636.5, 66.0, 40.0 ],
+					"patching_rect" : [ 218.0, 621.5, 66.0, 40.0 ],
 					"style" : "",
 					"text" : "ピン番号"
 				}
@@ -192,7 +192,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 83.0, 30.0, 30.0 ],
+					"patching_rect" : [ 234.0, 83.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -206,7 +206,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 83.0, 30.0, 30.0 ],
+					"patching_rect" : [ 98.0, 83.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -220,7 +220,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.666656, 83.0, 30.0, 30.0 ],
+					"patching_rect" : [ 188.666656, 83.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -248,7 +248,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.0, 83.0, 30.0, 30.0 ],
+					"patching_rect" : [ 278.0, 83.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -262,7 +262,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 83.0, 30.0, 30.0 ],
+					"patching_rect" : [ 143.0, 83.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -584,15 +584,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.25, 0.0, 75.5, 35.0 ],
+					"patching_rect" : [ 6.25, 0.0, 108.5, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.333332, 0.0, 90.333328, 21.0 ],
+					"presentation_rect" : [ 8.333332, 0.0, 101.333328, 21.0 ],
 					"style" : "",
-					"text" : " 電磁弁 15-21",
+					"text" : " 電磁弁 15 - 21",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -630,7 +629,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 144.5, 142.5, 323.5, 142.5 ],
+					"midpoints" : [ 152.5, 142.5, 323.5, 142.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -638,6 +637,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
+					"midpoints" : [ 416.5, 217.0, 467.666687, 217.0, 467.666687, 154.666672, 518.833374, 154.666672 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -675,6 +675,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
+					"midpoints" : [ 416.5, 286.0, 467.666687, 286.0, 467.666687, 154.666672, 518.833374, 154.666672 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -705,6 +706,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
+					"midpoints" : [ 416.5, 354.0, 467.666687, 354.0, 467.666687, 154.666672, 518.833374, 154.666672 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -719,7 +721,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
-					"midpoints" : [ 284.5, 139.5, 323.5, 139.5 ],
+					"midpoints" : [ 287.5, 139.5, 323.5, 139.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -743,6 +745,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
+					"midpoints" : [ 416.5, 425.0, 467.666687, 425.0, 467.666687, 154.666672, 518.833374, 154.666672 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -773,6 +776,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
+					"midpoints" : [ 416.5, 491.0, 467.666687, 491.0, 467.666687, 154.666672, 518.833374, 154.666672 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -811,6 +815,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
+					"midpoints" : [ 416.5, 556.0, 467.666687, 556.0, 467.666687, 154.666672, 518.833374, 154.666672 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -825,7 +830,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 190.166656, 141.5, 323.5, 141.5 ],
+					"midpoints" : [ 198.166656, 141.5, 323.5, 141.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -849,6 +854,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
+					"midpoints" : [ 416.5, 619.0, 467.666687, 619.0, 467.666687, 154.666672, 518.833374, 154.666672 ],
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -856,7 +862,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 99.5, 141.0, 323.5, 141.0 ],
+					"midpoints" : [ 107.5, 141.0, 323.5, 141.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -864,7 +870,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"midpoints" : [ 235.5, 141.5, 323.5, 141.5 ],
+					"midpoints" : [ 243.5, 141.5, 323.5, 141.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -902,6 +908,9 @@
 				"name" : "Luca",
 				"default" : 				{
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -912,12 +921,9 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-					"fontname" : [ "Open Sans Semibold" ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -926,8 +932,10 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
+					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
+					"fontname" : [ "Lucida Grande" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -938,12 +946,10 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
-					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
 					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"fontname" : [ "Lucida Grande" ],
-					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ]
+					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ]
 				}
 ,
 				"parentstyle" : "",
@@ -970,8 +976,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
