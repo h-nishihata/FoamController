@@ -1,0 +1,32 @@
+{
+	"pattrstorage" : 	{
+		"name" : "store",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"valveUI00::schedule01" : [ 0 ],
+					"valveUI00::mode01" : [ 0 ],
+					"valveUI03::mode01" : [ 2 ],
+					"valveUI03::schedule07" : [  ],
+					"valveUI03::mode07" : [  ],
+					"valveUI03::schedule06" : [  ],
+					"valveUI03::mode06" : [  ],
+					"valveUI03::schedule05" : [  ],
+					"valveUI03::mode05" : [  ],
+					"valveUI03::schedule04" : [  ],
+					"valveUI03::mode04" : [  ],
+					"valveUI03::schedule03" : [  ],
+					"valveUI03::mode03" : [  ],
+					"valveUI03::schedule02" : [  ],
+					"valveUI03::mode02" : [  ],
+					"valveUI03::schedule01" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

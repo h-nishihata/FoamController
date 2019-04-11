@@ -2,7 +2,7 @@
 	"name" : "FoamController",
 	"version" : 1,
 	"creationdate" : -657214362,
-	"modificationdate" : -657213469,
+	"modificationdate" : -657142248,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -42,6 +42,26 @@
 			}
 ,
 			"solenoidValves03.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"valveUI00.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"valveUI01.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"valveUI02.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"valveUI03.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
