@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 257.0, 138.0, 752.0, 600.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,97 @@
 		"style" : "Tomoya",
 		"subpatcher_template" : "Default Max 7",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 232.0, 64.0, 23.0 ],
+					"style" : "",
+					"text" : "r valve07"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 202.0, 64.0, 23.0 ],
+					"style" : "",
+					"text" : "r valve06"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 172.0, 64.0, 23.0 ],
+					"style" : "",
+					"text" : "r valve05"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 142.0, 64.0, 23.0 ],
+					"style" : "",
+					"text" : "r valve04"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 112.0, 64.0, 23.0 ],
+					"style" : "",
+					"text" : "r valve03"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 82.0, 64.0, 23.0 ],
+					"style" : "",
+					"text" : "r valve02"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 40.0, 52.0, 64.0, 23.0 ],
+					"style" : "",
+					"text" : "r valve01"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-82",
@@ -179,104 +270,6 @@
 					"patching_rect" : [ 191.666672, 603.166687, 66.0, 40.0 ],
 					"style" : "",
 					"text" : "ピン番号"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-9",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.999969, 64.666664, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-8",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.666672, 64.666664, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-7",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.666664, 64.666664, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-6",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.333328, 64.666664, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-5",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 295.666656, 64.666664, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-4",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 248.666672, 64.666664, 30.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-2",
-					"index" : 0,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.666664, 64.666664, 30.0, 30.0 ],
-					"style" : ""
 				}
 
 			}
@@ -589,7 +582,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.25, 0.0, 82.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.333332, 0.0, 81.333328, 21.0 ],
+					"presentation_rect" : [ 18.333332, 0.0, 82.0, 21.0 ],
 					"style" : "",
 					"text" : " 電磁弁 1 - 7",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -612,6 +605,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"midpoints" : [ 49.5, 169.333344, 297.166656, 169.333344 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 49.5, 119.833336, 297.166656, 119.833336 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 1 ],
 					"midpoints" : [ 297.166656, 198.666672, 372.666656, 198.666672, 372.666656, 154.666672, 424.166656, 154.666672 ],
 					"source" : [ "obj-14", 0 ]
@@ -628,8 +637,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 123.166664, 124.166672, 297.166656, 124.166672 ],
+					"destination" : [ "obj-36", 0 ],
+					"midpoints" : [ 49.5, 218.333328, 297.166656, 218.333328 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -720,8 +729,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"midpoints" : [ 258.166687, 121.166672, 297.166656, 121.166672 ],
+					"destination" : [ "obj-41", 0 ],
+					"midpoints" : [ 49.5, 268.833313, 297.166656, 268.833313 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -783,8 +792,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"midpoints" : [ 305.166656, 316.666687, 297.166656, 316.666687 ],
+					"destination" : [ "obj-46", 0 ],
+					"midpoints" : [ 49.5, 316.833313, 297.166656, 316.833313 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -829,8 +838,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"midpoints" : [ 168.833328, 123.166672, 297.166656, 123.166672 ],
+					"destination" : [ "obj-56", 0 ],
+					"midpoints" : [ 49.5, 364.333313, 297.166656, 364.333313 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -861,25 +870,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 78.166664, 122.666672, 297.166656, 122.666672 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"midpoints" : [ 214.166672, 123.166672, 297.166656, 123.166672 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"midpoints" : [ 350.499969, 121.166672, 297.166656, 121.166672 ],
-					"source" : [ "obj-9", 0 ]
+					"midpoints" : [ 49.5, 410.833344, 297.166656, 410.833344 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -907,10 +900,13 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"fontname" : [ "Open Sans Semibold" ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -920,10 +916,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -932,10 +925,14 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
+					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+					"fontname" : [ "Lucida Grande" ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
 					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
 					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
-					"fontname" : [ "Lucida Grande" ],
+					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -945,11 +942,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ]
+
 				}
 ,
 				"parentstyle" : "",
