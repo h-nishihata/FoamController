@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
+		"rect" : [ 648.0, 317.0, 948.0, 413.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Lucida Grande",
@@ -34,7 +34,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "Tomoya",
+		"style" : "",
 		"subpatcher_template" : "Default Max 7",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -580,9 +580,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.25, 0.0, 82.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 18.333332, 0.0, 82.0, 21.0 ],
+					"patching_rect" : [ 15.25, 1.0, 82.0, 21.0 ],
 					"style" : "",
 					"text" : " 電磁弁 1 - 7",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -596,8 +594,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ -4.0, 0.0, 126.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ -4.0, 0.0, 126.0, 23.0 ],
 					"style" : ""
 				}
 

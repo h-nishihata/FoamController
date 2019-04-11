@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 869.0, 79.0, 537.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 947.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -34,7 +34,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "Tomoya",
+		"style" : "",
 		"subpatcher_template" : "Default Max 7",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -5385,7 +5385,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 180.833328, 175.999939, 61.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.099976, 44.164429, 61.0, 40.0 ],
+					"presentation_rect" : [ 47.099976, 37.664429, 61.0, 40.0 ],
 					"style" : "",
 					"text" : "モード",
 					"textjustification" : 1
@@ -5399,15 +5399,17 @@
 					"fontface" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-143",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.333328, 175.999939, 205.0, 40.0 ],
+					"patching_rect" : [ 252.333328, 175.999939, 205.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 118.599976, 44.164429, 205.0, 40.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 126.93335, 37.664429, 128.0, 53.0 ],
 					"style" : "",
-					"text" : "自動モード選択時のスケジュール",
-					"textjustification" : 1
+					"text" : "自動モード選択時の\nスケジュール",
+					"textjustification" : 0
 				}
 
 			}

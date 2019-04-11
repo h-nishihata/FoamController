@@ -34,7 +34,7 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "",
+		"style" : "default",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -121,7 +121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1706.333374, 110.933334, 103.0, 22.0 ],
+					"patching_rect" : [ 1706.333374, 107.933334, 103.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
@@ -129,7 +129,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @invisible 1",
-					"varname" : "u370005528"
+					"varname" : "u668012649"
 				}
 
 			}
@@ -194,7 +194,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1374.43335, 232.333313, 288.333344, 1096.0 ],
+					"patching_rect" : [ 1293.43335, 232.333313, 272.333344, 1096.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1258.333374, 128.166687, 315.0, 1101.666748 ],
 					"varname" : "valveUI03",
@@ -216,7 +216,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1080.766602, 232.333313, 291.666687, 1096.0 ],
+					"patching_rect" : [ 1020.766602, 232.333313, 271.666687, 1096.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 897.099976, 128.166687, 365.0, 1124.0 ],
 					"varname" : "valveUI02",
@@ -238,32 +238,10 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 775.766663, 232.333313, 302.666656, 1096.0 ],
+					"patching_rect" : [ 747.099976, 232.333313, 272.666656, 1096.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 547.099976, 132.333313, 348.0, 1090.0 ],
 					"varname" : "valveUI01",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-12",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "valveUI00.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 473.099976, 232.333313, 302.0, 1096.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 203.099976, 132.333313, 342.0, 1112.0 ],
-					"varname" : "valveUI00",
 					"viewvisibility" : 1
 				}
 
@@ -296,7 +274,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1374.43335, 1328.333252, 124.0, 27.0 ],
+					"patching_rect" : [ 1293.43335, 1330.333252, 124.0, 27.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -316,7 +294,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1080.43335, 1330.333252, 116.0, 23.0 ],
+					"patching_rect" : [ 1020.766602, 1330.333252, 116.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -336,7 +314,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 775.766663, 1330.333252, 116.0, 23.0 ],
+					"patching_rect" : [ 747.099976, 1330.333252, 116.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -442,7 +420,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 473.099976, 184.333313, 77.0, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 286.099976, 129.497803, 77.0, 46.0 ],
+					"presentation_rect" : [ 248.299973, 118.497803, 77.0, 46.0 ],
 					"style" : "",
 					"text" : "電磁弁",
 					"textjustification" : 1
@@ -461,7 +439,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 234.5, 184.333313, 66.5, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.01664, 129.497803, 66.5, 46.0 ],
+					"presentation_rect" : [ 46.01664, 118.497803, 66.5, 46.0 ],
 					"style" : "",
 					"text" : "ポンプ",
 					"textjustification" : 1
@@ -474,7 +452,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1706.333374, 214.000015, 69.0, 22.0 ],
+					"patching_rect" : [ 1706.333374, 208.266678, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"audiosupport" : 1,
@@ -1035,6 +1013,28 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-12",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "valveUI00.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 473.099976, 232.333313, 274.0, 1096.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 203.099976, 132.333313, 342.0, 1112.0 ],
+					"varname" : "valveUI00",
+					"viewvisibility" : 1
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1249,6 +1249,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "valveUI00.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/FoamController/FoamController/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "timeManager.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/FoamController/FoamController/patchers",
 				"patcherrelativepath" : ".",
@@ -1285,13 +1292,6 @@
 			}
 , 			{
 				"name" : "solenoidValves03.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/FoamController/FoamController/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "valveUI00.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/FoamController/FoamController/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

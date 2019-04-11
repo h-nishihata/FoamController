@@ -12,11 +12,13 @@ void loop()
     values [0] = Serial.read() ;
     values [1] = Serial.read() ;
 
-    Serial.print("value 0 = ");
+    Serial.print("value 0: ");
     Serial.println(values [0]);
-    Serial.print("value 1 = ");
+    Serial.print("value 1: ");
     Serial.println(values [1]);
-    
+
+    if(values[1] > 1)
+      return;
     digitalWrite(values[0], values[1]);
   }
 }
