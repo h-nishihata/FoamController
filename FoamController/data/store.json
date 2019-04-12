@@ -60,7 +60,11 @@
 					"valveUI03::mode27" : [ 0 ],
 					"valveUI03::schedule27" : [ 1, 0, 0, 0, 0, 0 ],
 					"valveUI03::mode28" : [ 0 ],
-					"valveUI03::schedule28" : [ 1, 0, 0, 0, 0, 0 ]
+					"valveUI03::schedule28" : [ 1, 0, 0, 0, 0, 0 ],
+					"timeManager::endTimeMinute" : [ 30 ],
+					"timeManager::endTimeHour" : [ 18 ],
+					"timeManager::startTimeMinute" : [ 30 ],
+					"timeManager::startTimeHour" : [ 8 ]
 				}
 
 			}

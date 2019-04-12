@@ -2,7 +2,7 @@
 	"name" : "FoamController",
 	"version" : 1,
 	"creationdate" : -657214362,
-	"modificationdate" : -657142248,
+	"modificationdate" : -657045717,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -46,12 +46,12 @@
 				"local" : 1
 			}
 ,
-			"valveUI00.maxpat" : 			{
+			"valveUI01.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"valveUI01.maxpat" : 			{
+			"valveUI00.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -65,6 +65,10 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+
+		}
+,
+		"data" : 		{
 
 		}
 
