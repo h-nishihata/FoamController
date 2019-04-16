@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 918.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -243,64 +243,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1457.100098, 58.266697, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1457.100098, 164.833328, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1530.100098, 58.266697, 159.333328, 22.0 ],
-					"style" : "",
-					"text" : "bindto valveUI00::mode01"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1457.100098, 114.866707, 103.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr @invisible 1",
-					"varname" : "u449001222"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -338,7 +280,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1250.433472, 208.40007, 105.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 536, 640 ],
+						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
@@ -387,7 +329,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1020.766602, 307.333313, 271.666687, 1096.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 713.433289, -23.666687, 365.0, 1124.0 ],
+					"presentation_rect" : [ 713.433289, -23.666687, 266.0, 1124.0 ],
 					"varname" : "valveUI02",
 					"viewvisibility" : 1
 				}
@@ -568,37 +510,6 @@
 					"style" : "",
 					"text" : "ポンプ",
 					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1457.100098, 215.200027, 69.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"allwindowsactive" : 0,
-						"audiosupport" : 1,
-						"bundleidentifier" : "com.SANDWICH.Foam",
-						"cantclosetoplevelpatchers" : 1,
-						"cefsupport" : 1,
-						"copysupport" : 1,
-						"database" : 0,
-						"extensions" : 1,
-						"gensupport" : 1,
-						"midisupport" : 1,
-						"noloadbangdefeating" : 0,
-						"overdrive" : 0,
-						"preffilename" : "Max 7 Preferences",
-						"searchformissingfiles" : 1,
-						"statusvisible" : 1,
-						"usesearchpath" : 0
-					}
-,
-					"style" : "",
-					"text" : "standalone"
 				}
 
 			}
@@ -1136,7 +1047,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 473.099976, 307.333313, 274.0, 1096.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 218.099976, -23.666687, 342.0, 1112.0 ],
+					"presentation_rect" : [ 218.099976, -23.666687, 264.0, 1112.0 ],
 					"varname" : "valveUI00",
 					"viewvisibility" : 1
 				}
@@ -1181,7 +1092,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 747.099976, 307.333313, 272.666656, 1096.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 465.099976, -23.666687, 348.0, 1090.0 ],
+					"presentation_rect" : [ 465.099976, -23.666687, 265.0, 1090.0 ],
 					"varname" : "valveUI01",
 					"viewvisibility" : 1
 				}
@@ -1283,13 +1194,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-48", 6 ],
 					"midpoints" : [ 244.0, 1151.899902, 177.166656, 1151.899902 ],
 					"source" : [ "obj-271", 0 ]
@@ -1309,13 +1213,6 @@
 					"destination" : [ "obj-48", 4 ],
 					"midpoints" : [ 244.0, 1046.900024, 144.833328, 1046.900024 ],
 					"source" : [ "obj-287", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -1348,13 +1245,6 @@
 					"destination" : [ "obj-48", 0 ],
 					"midpoints" : [ 244.0, 836.900024, 80.166672, 836.900024 ],
 					"source" : [ "obj-321", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -1576,6 +1466,8 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -1587,12 +1479,10 @@
 						"autogradient" : 0
 					}
 ,
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"fontname" : [ "Open Sans Semibold" ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1601,7 +1491,9 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
+					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
 					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
+					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -1612,13 +1504,11 @@
 						"autogradient" : 0
 					}
 ,
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"fontname" : [ "Lucida Grande" ],
-					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

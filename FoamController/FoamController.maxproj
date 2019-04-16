@@ -2,7 +2,7 @@
 	"name" : "FoamController",
 	"version" : 1,
 	"creationdate" : -657214362,
-	"modificationdate" : -657033500,
+	"modificationdate" : -656680904,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,13 +10,23 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"main.maxpat" : 			{
+			"FoamController.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
+			"valveUI01.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"timeManager.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"valveUI00.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -46,22 +56,12 @@
 				"local" : 1
 			}
 ,
-			"valveUI00.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"valveUI01.maxpat" : 			{
+			"valveUI02.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"valveUI03.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"valveUI02.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
