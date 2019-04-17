@@ -2,8 +2,8 @@
 	"name" : "FoamController",
 	"version" : 1,
 	"creationdate" : -657214362,
-	"modificationdate" : -656680904,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : -656606983,
+	"viewrect" : [ 80.0, 514.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -64,6 +64,12 @@
 			"valveUI03.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"Mira.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}
