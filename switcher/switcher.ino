@@ -18,7 +18,9 @@ void loop()
     values [1] = Serial.read() ;
 
     if((values [0] == 88) && (values [1] == 88))
-      debugMode = !debugMode;
+      debugMode = true;
+    else if((values [0] == 77) && (values [1] == 77))
+      debugMode = false;
 
     if(debugMode)
     {
