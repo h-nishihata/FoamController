@@ -563,6 +563,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "store.json",
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -653,7 +654,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.099976, 1015.133423, 116.0, 27.000031 ],
+					"patching_rect" : [ 478.099976, 1015.133423, 116.0, 27.000031 ],
 					"viewvisibility" : 1
 				}
 
@@ -673,7 +674,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.099976, 978.333252, 116.0, 23.0 ],
+					"patching_rect" : [ 478.099976, 978.333252, 116.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -693,7 +694,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.099976, 941.333252, 116.0, 23.0 ],
+					"patching_rect" : [ 478.099976, 941.333252, 116.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -713,7 +714,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.099976, 904.333313, 116.0, 23.0 ],
+					"patching_rect" : [ 478.099976, 904.333313, 116.0, 23.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -733,7 +734,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 624.666687, 1018.466675, 115.999992, 20.333435 ],
+					"patching_rect" : [ 611.099976, 1018.466736, 115.999992, 20.333435 ],
 					"viewvisibility" : 1
 				}
 
@@ -846,7 +847,7 @@
 					"presentation_rect" : [ 46.016632, 752.497742, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -920,7 +921,7 @@
 					"presentation_rect" : [ 46.016632, 647.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -994,7 +995,7 @@
 					"presentation_rect" : [ 46.016632, 542.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -1068,7 +1069,7 @@
 					"presentation_rect" : [ 46.016632, 437.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -1142,7 +1143,7 @@
 					"presentation_rect" : [ 46.016632, 332.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -1216,7 +1217,7 @@
 					"presentation_rect" : [ 46.016632, 227.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -1290,7 +1291,7 @@
 					"presentation_rect" : [ 46.016632, 122.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 0
+					"value" : 1
 				}
 
 			}
@@ -1495,7 +1496,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 6 ],
-					"midpoints" : [ 754.0, 1014.399963, 731.166687, 1014.399963 ],
+					"midpoints" : [ 754.0, 1014.399963, 717.599976, 1014.399963 ],
 					"source" : [ "obj-271", 0 ]
 				}
 
@@ -1503,7 +1504,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 5 ],
-					"midpoints" : [ 754.0, 961.900024, 715.0, 961.900024 ],
+					"midpoints" : [ 754.0, 961.900024, 701.433289, 961.900024 ],
 					"source" : [ "obj-279", 0 ]
 				}
 
@@ -1527,7 +1528,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 4 ],
-					"midpoints" : [ 754.0, 909.400024, 698.833374, 909.400024 ],
+					"midpoints" : [ 754.0, 909.400024, 685.266663, 909.400024 ],
 					"source" : [ "obj-287", 0 ]
 				}
 
@@ -1535,7 +1536,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 3 ],
-					"midpoints" : [ 754.0, 856.900024, 682.666687, 856.900024 ],
+					"midpoints" : [ 754.0, 856.900024, 669.099976, 856.900024 ],
 					"source" : [ "obj-295", 0 ]
 				}
 
@@ -1543,7 +1544,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 2 ],
-					"midpoints" : [ 754.0, 804.400024, 666.5, 804.400024 ],
+					"midpoints" : [ 754.0, 804.400024, 652.933289, 804.400024 ],
 					"source" : [ "obj-303", 0 ]
 				}
 
@@ -1558,7 +1559,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 1 ],
-					"midpoints" : [ 754.0, 751.900024, 650.333374, 751.900024 ],
+					"midpoints" : [ 754.0, 751.900024, 636.766663, 751.900024 ],
 					"source" : [ "obj-311", 0 ]
 				}
 
@@ -1573,7 +1574,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 754.0, 699.400024, 634.166687, 699.400024 ],
+					"midpoints" : [ 754.0, 699.400024, 620.599976, 699.400024 ],
 					"source" : [ "obj-321", 0 ]
 				}
 
@@ -1665,7 +1666,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 634.166687, 1168.166748, 620.599976, 1168.166748 ],
+					"midpoints" : [ 620.599976, 1168.166748, 620.599976, 1168.166748 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -1673,7 +1674,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 502.599976, 1112.43335, 620.599976, 1112.43335 ],
+					"midpoints" : [ 487.599976, 1112.43335, 620.599976, 1112.43335 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -1695,7 +1696,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 502.599976, 1130.93335, 620.599976, 1130.93335 ],
+					"midpoints" : [ 487.599976, 1130.93335, 620.599976, 1130.93335 ],
 					"source" : [ "obj-64", 0 ]
 				}
 
@@ -1703,7 +1704,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 502.599976, 1149.43335, 620.599976, 1149.43335 ],
+					"midpoints" : [ 487.599976, 1149.43335, 620.599976, 1149.43335 ],
 					"source" : [ "obj-65", 0 ]
 				}
 
@@ -1711,7 +1712,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 502.599976, 1169.833374, 620.599976, 1169.833374 ],
+					"midpoints" : [ 487.599976, 1169.833374, 620.599976, 1169.833374 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -1853,6 +1854,13 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "store.json",
+				"bootpath" : "~/Documents/Max 7/Projects/FoamController/FoamController/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
@@ -1876,8 +1884,6 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1889,10 +1895,12 @@
 					}
 ,
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"fontname" : [ "Open Sans Semibold" ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1901,9 +1909,6 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
-					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
-					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
-					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -1916,9 +1921,12 @@
 ,
 					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
 					"fontname" : [ "Lucida Grande" ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
+					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
+					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1945,8 +1953,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
