@@ -61,7 +61,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.433121, 1033.466675, 162.5, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1262.524902, 539.023438, 150.5, 46.0 ],
+					"presentation_rect" : [ 1262.524902, 554.023438, 150.5, 46.0 ],
 					"style" : "",
 					"text" : "デバッグ",
 					"textjustification" : 1
@@ -90,7 +90,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleside" : 3,
 					"id" : "obj-75",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -98,7 +97,7 @@
 					"patching_rect" : [ 136.166626, 1117.5, 208.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1262.524902, 608.333313, 192.600006, 36.0 ],
+					"presentation_rect" : [ 1296.916626, 623.333313, 192.600006, 36.0 ],
 					"style" : "",
 					"text" : "使用可能なポートの一覧を取得．"
 				}
@@ -126,7 +125,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 349.0, 1117.5, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1470.624878, 614.333313, 24.0, 24.0 ],
+					"presentation_rect" : [ 1265.016602, 629.333313, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -181,7 +180,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 349.0, 1188.5, 161.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1262.524902, 696.333313, 161.0, 22.0 ],
+					"presentation_rect" : [ 1265.016602, 666.333313, 161.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -280,7 +279,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleside" : 3,
 					"id" : "obj-29",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -289,7 +287,7 @@
 					"patching_rect" : [ 675.166687, 1117.5, 189.833344, 63.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1262.524902, 748.997803, 200.0, 50.0 ],
+					"presentation_rect" : [ 1296.916626, 718.997803, 200.0, 50.0 ],
 					"style" : "",
 					"text" : "遠隔のデバッグ用．\nArduino IDEのシリアルモニタに\n値を出力する．"
 				}
@@ -305,7 +303,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 758.083374, 1183.633301, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1470.624878, 761.997803, 24.0, 24.0 ],
+					"presentation_rect" : [ 1265.016602, 731.997803, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -355,34 +353,18 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 20.0,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1924.75, 163.033356, 133.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1337.624878, 1025.699951, 285.0, 29.0 ],
-					"style" : "",
-					"text" : "Version 1.0.0",
-					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
 					"fontsize" : 36.0,
 					"id" : "obj-4",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1767.75, 115.033356, 290.0, 47.0 ],
+					"patching_rect" : [ 1767.75, 115.033356, 290.0, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1337.624878, 976.700012, 290.0, 47.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1262.524902, 979.333313, 186.0, 87.0 ],
 					"style" : "",
-					"text" : "Foam Controller"
+					"text" : "Foam\nController"
 				}
 
 			}
@@ -402,7 +384,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleside" : 3,
 					"id" : "obj-21",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -411,7 +392,7 @@
 					"patching_rect" : [ 100.966324, 336.933258, 172.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1291.116699, 334.128937, 172.0, 36.0 ],
+					"presentation_rect" : [ 1369.94165, 334.128937, 172.0, 36.0 ],
 					"style" : "",
 					"text" : "番号入力+Enterでパターンを削除"
 				}
@@ -440,7 +421,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 324.966553, 336.933258, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1516.19165, 341.128937, 50.0, 22.0 ],
+					"presentation_rect" : [ 1265.016602, 341.128937, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -461,14 +442,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleside" : 3,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 100.966324, 445.466644, 172.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1291.116699, 134.866699, 172.0, 24.0 ],
+					"presentation_rect" : [ 1369.94165, 134.866699, 172.0, 24.0 ],
 					"style" : "",
 					"text" : "保存されている値をロード"
 				}
@@ -477,14 +457,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleside" : 3,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 472.866577, 369.866638, 160.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1291.116699, 306.497833, 160.0, 24.0 ],
+					"presentation_rect" : [ 1369.94165, 306.497833, 160.0, 24.0 ],
 					"style" : "",
 					"text" : "保存されている値を確認"
 				}
@@ -493,7 +472,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleside" : 3,
 					"id" : "obj-5",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -502,7 +480,7 @@
 					"patching_rect" : [ 472.866577, 405.333313, 156.466766, 36.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1291.116699, 215.641052, 156.466766, 36.0 ],
+					"presentation_rect" : [ 1369.94165, 215.641052, 156.466766, 36.0 ],
 					"style" : "",
 					"text" : "jsonファイルにパターンを書き込み"
 				}
@@ -511,7 +489,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleside" : 3,
 					"id" : "obj-3",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -520,7 +497,7 @@
 					"patching_rect" : [ 54.966324, 478.933258, 218.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1291.116699, 170.497803, 218.0, 36.0 ],
+					"presentation_rect" : [ 1369.94165, 170.497803, 218.0, 36.0 ],
 					"style" : "",
 					"text" : "Shift+クリックでパターンを保存、\n数字をクリックして呼び出し"
 				}
@@ -535,7 +512,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 274.966431, 445.466644, 105.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1516.19165, 138.866699, 105.0, 22.0 ],
+					"presentation_rect" : [ 1265.016602, 138.866699, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "pattrstorage store"
 				}
@@ -551,7 +528,7 @@
 					"patching_rect" : [ 274.966553, 478.933258, 100.0, 40.0 ],
 					"pattrstorage" : "store",
 					"presentation" : 1,
-					"presentation_rect" : [ 1516.19165, 170.497803, 100.0, 40.0 ],
+					"presentation_rect" : [ 1265.016602, 170.497803, 100.0, 40.0 ],
 					"style" : ""
 				}
 
@@ -565,7 +542,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 573.266602, 445.466644, 58.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1516.19165, 225.166687, 58.0, 22.0 ],
+					"presentation_rect" : [ 1265.016602, 225.166687, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "writejson"
 				}
@@ -580,7 +557,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 472.866577, 445.466644, 79.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1516.19165, 306.497833, 79.0, 22.0 ],
+					"presentation_rect" : [ 1265.016602, 306.497833, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "clientwindow"
 				}
@@ -659,7 +636,7 @@
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 611.099976, 1284.533325, 79.0, 22.0 ],
 					"style" : "",
-					"text" : "serial b 9600"
+					"text" : "serial d 9600"
 				}
 
 			}
@@ -945,7 +922,7 @@
 					"presentation_rect" : [ 46.016632, 647.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -1019,7 +996,7 @@
 					"presentation_rect" : [ 46.016632, 542.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -1093,7 +1070,7 @@
 					"presentation_rect" : [ 46.016632, 437.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -1167,7 +1144,7 @@
 					"presentation_rect" : [ 46.016632, 332.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -1241,7 +1218,7 @@
 					"presentation_rect" : [ 46.016632, 227.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -1315,7 +1292,7 @@
 					"presentation_rect" : [ 46.016632, 122.497803, 120.5, 60.0 ],
 					"size" : 2,
 					"style" : "",
-					"value" : 1
+					"value" : 0
 				}
 
 			}
@@ -1403,7 +1380,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 439.433105, 411.858948, 20.455872, 22.94873 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 222.166687, 20.455872, 22.94873 ],
+					"presentation_rect" : [ 1236.841553, 222.166687, 20.455872, 22.94873 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "2",
@@ -1432,7 +1409,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 24.433121, 485.458893, 20.455872, 22.94873 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1262.524902, 177.023438, 20.455872, 22.94873 ],
+					"presentation_rect" : [ 1236.841553, 177.023438, 20.455872, 22.94873 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "1",
@@ -1901,11 +1878,13 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1915,9 +1894,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -1926,12 +1903,14 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"fontname" : [ "Lucida Grande" ],
 					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
 					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -1941,9 +1920,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"fontname" : [ "Lucida Grande" ]
+
 				}
 ,
 				"parentstyle" : "",
@@ -1970,8 +1947,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
