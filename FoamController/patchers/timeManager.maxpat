@@ -334,57 +334,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-48",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 333.0, 351.5, 32.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 222.0, 52.833389, 32.0, 22.0 ],
-					"style" : "",
-					"text" : "秒",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 278.0, 351.5, 32.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 142.0, 52.833389, 32.0, 22.0 ],
-					"style" : "",
-					"text" : "分",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 351.5, 32.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 52.833389, 32.0, 22.0 ],
-					"style" : "",
-					"text" : "時",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -611,7 +560,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.25, 203.333374, 32.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 138.833374, 32.0, 22.0 ],
+					"presentation_rect" : [ 151.0, 143.833374, 32.0, 22.0 ],
 					"style" : "",
 					"text" : "分",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -628,7 +577,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 650.25, 102.333389, 32.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 394.0, 52.833389, 32.0, 22.0 ],
+					"presentation_rect" : [ 151.0, 57.833389, 32.0, 22.0 ],
 					"style" : "",
 					"text" : "分",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -645,7 +594,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 568.25, 203.333374, 32.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 312.0, 138.833374, 32.0, 22.0 ],
+					"presentation_rect" : [ 69.0, 143.833374, 32.0, 22.0 ],
 					"style" : "",
 					"text" : "時",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -662,7 +611,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 568.25, 102.333389, 32.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 312.0, 52.833389, 32.0, 22.0 ],
+					"presentation_rect" : [ 69.0, 57.833389, 32.0, 22.0 ],
 					"style" : "",
 					"text" : "時",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -681,7 +630,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 516.25, 159.997864, 149.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.0, 95.497864, 149.0, 39.0 ],
+					"presentation_rect" : [ 17.0, 100.497864, 149.0, 39.0 ],
 					"style" : "",
 					"text" : "ポンプ終了時刻",
 					"textjustification" : 1
@@ -700,7 +649,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 516.25, 59.0, 149.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.0, 9.5, 149.0, 39.0 ],
+					"presentation_rect" : [ 17.0, 14.5, 149.0, 39.0 ],
 					"style" : "",
 					"text" : "ポンプ起動時刻",
 					"textjustification" : 1
@@ -721,7 +670,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 598.25, 203.333374, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 342.0, 138.833374, 50.0, 22.0 ],
+					"presentation_rect" : [ 99.0, 143.833374, 50.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "number[3]"
@@ -742,7 +691,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.25, 203.333374, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.0, 138.833374, 50.0, 22.0 ],
+					"presentation_rect" : [ 17.0, 143.833374, 50.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "number[2]"
@@ -763,7 +712,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 598.25, 102.333389, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 342.0, 52.833389, 50.0, 22.0 ],
+					"presentation_rect" : [ 99.0, 57.833389, 50.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "number[1]"
@@ -784,28 +733,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.25, 102.333389, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.0, 52.833389, 50.0, 22.0 ],
+					"presentation_rect" : [ 17.0, 57.833389, 50.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "number"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 2,
-					"fontface" : 1,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.5, 2.0, 113.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.5, 9.5, 113.0, 39.0 ],
-					"style" : "",
-					"text" : "現在時刻",
-					"textjustification" : 1
 				}
 
 			}
@@ -844,8 +775,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 333.0, 279.5, 48.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 172.0, 52.833389, 48.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -862,8 +791,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 278.0, 279.5, 48.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 52.833389, 48.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -880,8 +807,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 223.0, 279.5, 48.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 52.833389, 48.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1174,9 +1099,9 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 2.0, 85.0, 21.0 ],
+					"patching_rect" : [ 3.0, 3.0, 85.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -4.0, 0.0, 434.0, 177.0 ],
+					"presentation_rect" : [ -1.0, 0.0, 195.0, 182.0 ],
 					"style" : ""
 				}
 
@@ -1756,11 +1681,10 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
@@ -1772,7 +1696,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1781,14 +1706,13 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"fontname" : [ "Lucida Grande" ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"fontname" : [ "Lucida Grande" ],
+					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
-					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
 					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -1798,7 +1722,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
