@@ -22,13 +22,13 @@ void loop()
     else if((values [0] == 77) && (values [1] == 77))
       debugMode = false;
 
-//    if(debugMode)
-//    {
+    if(debugMode)
+    {
       Serial.print("pin number: ");
       Serial.println(values [0]);
       Serial.print("status: ");
       Serial.println(values [1]);
-//    }
+    }
     
     if (values[1] > 1)
       return;

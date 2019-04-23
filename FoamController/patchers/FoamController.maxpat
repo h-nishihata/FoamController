@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 388.0, 87.0, 1372.0, 787.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -647,7 +647,7 @@
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 611.099976, 1284.533325, 79.0, 22.0 ],
 					"style" : "",
-					"text" : "serial b 9600"
+					"text" : "serial d 9600"
 				}
 
 			}
