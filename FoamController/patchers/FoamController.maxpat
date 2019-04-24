@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1190.0, 787.0 ],
+		"rect" : [ 117.0, 104.0, 1190.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,13 @@
 				"box" : 				{
 					"bubbleside" : 0,
 					"id" : "obj-38",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.566559, 277.333313, 193.399994, 32.0 ],
+					"patching_rect" : [ 71.566559, 318.166626, 195.399994, 46.0 ],
 					"style" : "",
-					"text" : "開館時刻になったら，1番に保存されたパターンを呼び出す．"
+					"text" : "開館時刻になったら，通常は1番，開館延長時は2番に保存されたパターンを呼び出す．"
 				}
 
 			}
@@ -416,13 +416,13 @@
 				"box" : 				{
 					"bubbleside" : 0,
 					"id" : "obj-22",
-					"linecount" : 4,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.466553, 658.833313, 203.0, 60.0 ],
+					"patching_rect" : [ 222.683105, 665.833313, 239.0, 113.0 ],
 					"style" : "",
-					"text" : "17番に全ONを，24番に全OFFを入れておく．\n起動直後は泡を成長させるために全ONを呼び出す．"
+					"text" : "01: 18時まで開館する日のスケジュール\n02: 20時まで開館する日のスケジュール\n17: すべてON\n24: すべてOFF\n\nを入れておく．\n起動直後は泡を成長させるために全ONを呼び出す．"
 				}
 
 			}
@@ -653,6 +653,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "store.json",
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1627,7 +1628,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1635,7 +1636,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-422", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1969,6 +1970,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 1 ],
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -2051,6 +2061,13 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "store.json",
+				"bootpath" : "~/Documents/Max 7/Projects/FoamController/FoamController/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
@@ -2086,11 +2103,11 @@
 					}
 ,
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
+					"fontname" : [ "Open Sans Semibold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2099,6 +2116,8 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
+					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
 					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -2110,13 +2129,11 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Lucida Grande" ],
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
 					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
-					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ]
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
+					"fontname" : [ "Lucida Grande" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2143,8 +2160,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
