@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 238.0, 79.0, 1168.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"autorestore" : "store.json",
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -66,7 +65,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 575.266602, 576.866699, 58.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 225.166687, 58.0, 22.0 ],
+					"presentation_rect" : [ 1265.016602, 480.166687, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "writejson"
 				}
@@ -81,7 +80,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 474.866577, 576.866699, 79.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 306.497833, 79.0, 22.0 ],
+					"presentation_rect" : [ 1265.016602, 546.497803, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "clientwindow"
 				}
@@ -168,18 +167,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 701.0, 258.333313, 24.0, 24.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -203,7 +190,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.433121, 973.466675, 162.5, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1262.524902, 554.023438, 150.5, 46.0 ],
+					"presentation_rect" : [ 1256.524902, 715.023438, 150.5, 46.0 ],
 					"style" : "",
 					"text" : "デバッグ",
 					"textjustification" : 1
@@ -222,7 +209,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 24.433121, 199.333313, 162.5, 46.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 68.023407, 150.5, 46.0 ],
+					"presentation_rect" : [ 1265.016602, 323.023407, 150.5, 46.0 ],
 					"style" : "",
 					"text" : "パラメータ保存",
 					"textjustification" : 1
@@ -239,7 +226,7 @@
 					"patching_rect" : [ 136.166626, 1057.5, 208.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1296.916626, 623.333313, 192.600006, 36.0 ],
+					"presentation_rect" : [ 1290.916626, 769.333313, 192.600006, 36.0 ],
 					"style" : "",
 					"text" : "使用可能なポートの一覧を取得．"
 				}
@@ -267,7 +254,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 349.0, 1057.5, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 629.333313, 24.0, 24.0 ],
+					"presentation_rect" : [ 1259.016602, 775.333313, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -322,7 +309,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 349.0, 1128.5, 161.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 666.333313, 161.0, 22.0 ],
+					"presentation_rect" : [ 1259.016602, 813.333313, 161.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -429,7 +416,7 @@
 					"patching_rect" : [ 675.166687, 1057.5, 189.833344, 63.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1296.916626, 718.997803, 200.0, 50.0 ],
+					"presentation_rect" : [ 1290.916626, 842.997803, 200.0, 50.0 ],
 					"style" : "",
 					"text" : "遠隔のデバッグ用．\nArduino IDEのシリアルモニタに\n値を出力する．"
 				}
@@ -445,7 +432,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 758.083374, 1123.633301, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 731.997803, 24.0, 24.0 ],
+					"presentation_rect" : [ 1259.016602, 855.997803, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -501,7 +488,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1767.75, 55.033356, 290.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1262.524902, 979.333313, 290.0, 47.0 ],
+					"presentation_rect" : [ 1236.841553, 1004.333313, 290.0, 47.0 ],
 					"style" : "",
 					"text" : "Foam Controller"
 				}
@@ -531,7 +518,7 @@
 					"patching_rect" : [ 102.966324, 468.333313, 172.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1369.94165, 334.128937, 172.0, 36.0 ],
+					"presentation_rect" : [ 1369.94165, 574.128906, 172.0, 36.0 ],
 					"style" : "",
 					"text" : "番号入力+Enterでパターンを削除"
 				}
@@ -560,7 +547,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 326.966553, 468.333313, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 341.128937, 50.0, 22.0 ],
+					"presentation_rect" : [ 1265.016602, 581.128906, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -587,7 +574,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 102.966324, 576.866699, 172.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1369.94165, 134.866699, 172.0, 24.0 ],
+					"presentation_rect" : [ 1369.94165, 374.866699, 172.0, 24.0 ],
 					"style" : "",
 					"text" : "保存されている値をロード"
 				}
@@ -602,7 +589,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 474.866577, 501.266693, 160.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1369.94165, 306.497833, 160.0, 24.0 ],
+					"presentation_rect" : [ 1369.94165, 546.497803, 160.0, 24.0 ],
 					"style" : "",
 					"text" : "保存されている値を確認"
 				}
@@ -619,7 +606,7 @@
 					"patching_rect" : [ 474.866577, 536.733398, 156.466766, 36.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1369.94165, 215.641052, 156.466766, 36.0 ],
+					"presentation_rect" : [ 1369.94165, 470.641052, 156.466766, 36.0 ],
 					"style" : "",
 					"text" : "jsonファイルにパターンを書き込み"
 				}
@@ -635,10 +622,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 56.966324, 610.333252, 218.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1369.94165, 170.497803, 218.0, 36.0 ],
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 1369.94165, 410.497803, 172.0, 50.0 ],
 					"style" : "",
-					"text" : "Shift+クリックでパターンを保存、\n数字をクリックして呼び出し"
+					"text" : "Shift+クリックでパターンを保存、数字をクリックして呼び出し"
 				}
 
 			}
@@ -651,7 +638,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 276.966431, 576.866699, 105.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 138.866699, 105.0, 22.0 ],
+					"presentation_rect" : [ 1265.016602, 378.866699, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "pattrstorage store"
 				}
@@ -667,7 +654,7 @@
 					"patching_rect" : [ 276.966553, 610.333252, 100.0, 40.0 ],
 					"pattrstorage" : "store",
 					"presentation" : 1,
-					"presentation_rect" : [ 1265.016602, 170.497803, 100.0, 40.0 ],
+					"presentation_rect" : [ 1265.016602, 410.497803, 100.0, 40.0 ],
 					"style" : ""
 				}
 
@@ -1422,9 +1409,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1550.833252, 50.200012, 185.266724, 176.266693 ],
+					"patching_rect" : [ 1414.833252, 55.033356, 321.266724, 145.600021 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.160408, 857.581116, 184.212448, 184.833344 ],
+					"presentation_rect" : [ 1236.841553, 70.581131, 318.212463, 149.633347 ],
 					"varname" : "timeManager",
 					"viewvisibility" : 1
 				}
@@ -1469,7 +1456,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 441.433105, 543.259033, 20.455872, 22.94873 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1236.841553, 222.166687, 20.455872, 22.94873 ],
+					"presentation_rect" : [ 1236.841553, 477.166687, 20.455872, 22.94873 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "2",
@@ -1498,7 +1485,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 26.433121, 616.858887, 20.455872, 22.94873 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1236.841553, 177.023438, 20.455872, 22.94873 ],
+					"presentation_rect" : [ 1236.841553, 417.023438, 20.455872, 22.94873 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "1",
@@ -1552,69 +1539,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-271", 0 ],
-					"midpoints" : [ 710.5, 873.0, 754.0, 873.0 ],
-					"order" : 0,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-279", 0 ],
-					"midpoints" : [ 710.5, 768.0, 754.0, 768.0 ],
-					"order" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-287", 0 ],
-					"midpoints" : [ 710.5, 663.0, 754.0, 663.0 ],
-					"order" : 2,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-295", 0 ],
-					"midpoints" : [ 710.5, 558.0, 754.0, 558.0 ],
-					"order" : 3,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-303", 0 ],
-					"midpoints" : [ 710.5, 453.0, 754.0, 453.0 ],
-					"order" : 4,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-311", 0 ],
-					"midpoints" : [ 710.5, 348.0, 754.0, 348.0 ],
-					"order" : 5,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-321", 0 ],
-					"midpoints" : [ 710.5, 285.0, 741.0, 285.0, 741.0, 255.0, 754.0, 255.0 ],
-					"order" : 6,
-					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -1757,14 +1681,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"midpoints" : [ 313.466553, 468.933228, 692.983276, 468.933228, 692.983276, 247.333313, 710.5, 247.333313 ],
-					"source" : [ "obj-34", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -1794,7 +1710,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-271", 0 ],
-					"midpoints" : [ 1560.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 873.0, 754.0, 873.0 ],
+					"midpoints" : [ 1424.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 873.0, 754.0, 873.0 ],
 					"order" : 0,
 					"source" : [ "obj-47", 0 ]
 				}
@@ -1803,7 +1719,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-279", 0 ],
-					"midpoints" : [ 1560.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 768.0, 754.0, 768.0 ],
+					"midpoints" : [ 1424.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 768.0, 754.0, 768.0 ],
 					"order" : 1,
 					"source" : [ "obj-47", 0 ]
 				}
@@ -1812,7 +1728,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-287", 0 ],
-					"midpoints" : [ 1560.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 663.0, 754.0, 663.0 ],
+					"midpoints" : [ 1424.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 663.0, 754.0, 663.0 ],
 					"order" : 2,
 					"source" : [ "obj-47", 0 ]
 				}
@@ -1821,7 +1737,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-295", 0 ],
-					"midpoints" : [ 1560.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 558.0, 754.0, 558.0 ],
+					"midpoints" : [ 1424.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 558.0, 754.0, 558.0 ],
 					"order" : 3,
 					"source" : [ "obj-47", 0 ]
 				}
@@ -1830,7 +1746,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-303", 0 ],
-					"midpoints" : [ 1560.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 453.0, 754.0, 453.0 ],
+					"midpoints" : [ 1424.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 453.0, 754.0, 453.0 ],
 					"order" : 4,
 					"source" : [ "obj-47", 0 ]
 				}
@@ -1839,7 +1755,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-311", 0 ],
-					"midpoints" : [ 1560.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 348.0, 754.0, 348.0 ],
+					"midpoints" : [ 1424.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 876.0, 186.0, 876.0, 348.0, 754.0, 348.0 ],
 					"order" : 5,
 					"source" : [ "obj-47", 0 ]
 				}
@@ -1848,7 +1764,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-321", 0 ],
-					"midpoints" : [ 1560.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 822.0, 186.0, 822.0, 252.0, 754.0, 252.0 ],
+					"midpoints" : [ 1424.333252, 228.0, 1077.0, 228.0, 1077.0, 186.0, 822.0, 186.0, 822.0, 252.0, 754.0, 252.0 ],
 					"order" : 6,
 					"source" : [ "obj-47", 0 ]
 				}
@@ -2061,13 +1977,6 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
-, 			{
-				"name" : "store.json",
-				"bootpath" : "~/Documents/Max 7/Projects/FoamController/FoamController/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
@@ -2091,7 +2000,11 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2102,12 +2015,8 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Open Sans Semibold" ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2116,8 +2025,13 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
+					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
 					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
 					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+					"fontname" : [ "Lucida Grande" ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -2128,12 +2042,7 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Lucida Grande" ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
