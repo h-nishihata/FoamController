@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1070.0, 787.0 ],
+		"rect" : [ 173.0, 237.0, 1070.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -86,8 +86,7 @@
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 18.0, 78.833374, 121.0, 49.0 ],
 					"style" : "",
-					"text" : "電磁弁を全開から保存したパターンに切り替える時間",
-					"textjustification" : 0
+					"text" : "電磁弁を全開から保存したパターンに切り替える時間"
 				}
 
 			}
@@ -150,7 +149,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 302.666656, 493.899994, 133.0, 22.0 ],
-					"restore" : [ 8 ],
+					"restore" : [ 7 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
