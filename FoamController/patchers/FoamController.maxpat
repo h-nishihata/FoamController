@@ -38,6 +38,26 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 105.866592, 877.0, 105.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 4, 44, 358, 172 ],
+						"parameter_enable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
+					"style" : "",
+					"text" : "pattrstorage store",
+					"varname" : "store"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -71,27 +91,6 @@
 					"patching_rect" : [ 385.683105, 318.166626, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "r startBooster"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autorestore" : "store.json",
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.866592, 873.700012, 105.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
-						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
-					}
-,
-					"style" : "",
-					"text" : "pattrstorage store",
-					"varname" : "store"
 				}
 
 			}
@@ -703,7 +702,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
 					"patching_rect" : [ 276.966553, 550.499939, 100.0, 40.0 ],
-					"pattrstorage" : "store",
 					"presentation" : 1,
 					"presentation_rect" : [ 1265.016602, 500.497803, 100.0, 40.0 ],
 					"style" : ""
@@ -1460,7 +1458,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1414.833252, 55.033356, 321.266724, 145.600021 ],
+					"patching_rect" : [ 1414.833252, 55.033356, 320.266724, 138.600021 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1236.841553, 100.581131, 318.212463, 243.633347 ],
 					"varname" : "timeManager",
@@ -2131,13 +2129,6 @@
 				"name" : "valveUI03.maxpat",
 				"bootpath" : "~/Documents/Max 7/Projects/FoamController/FoamController/patchers",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "store.json",
-				"bootpath" : "~/Documents/Max 7/Projects/FoamController/FoamController/data",
-				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
