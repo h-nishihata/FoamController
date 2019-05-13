@@ -2,7 +2,7 @@
 	"name" : "FoamController",
 	"version" : 1,
 	"creationdate" : -657214362,
-	"modificationdate" : -656454871,
+	"modificationdate" : -654355438,
 	"viewrect" : [ 128.0, 232.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -65,16 +65,10 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"Mira.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
-			}
 
 		}
 ,
-		"other" : 		{
+		"data" : 		{
 
 		}
 
