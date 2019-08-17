@@ -2,7 +2,7 @@
 	"name" : "FoamController",
 	"version" : 1,
 	"creationdate" : -657214362,
-	"modificationdate" : -654355438,
+	"modificationdate" : -646089255,
 	"viewrect" : [ 128.0, 232.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -65,10 +65,6 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-
-		}
-,
-		"data" : 		{
 
 		}
 
