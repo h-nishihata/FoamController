@@ -40,13 +40,13 @@
 				"box" : 				{
 					"bubbleside" : 3,
 					"id" : "obj-174",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 674.666626, 431.833435, 153.0, 45.0 ],
+					"patching_rect" : [ 674.666626, 431.833435, 274.333344, 72.0 ],
 					"style" : "",
-					"text" : "アプリ起動時，メイン画面にその日の曜日を一度だけ送信しておく．"
+					"text" : "実際の運用時以外に，左で設定した間欠スケジュールに切り替える時刻を過ぎてからアプリを起動した場合でも，メイン画面から曜日ごとのパターンを呼び出せるよう，その日の曜日を一度だけ送信しておく．"
 				}
 
 			}
@@ -120,9 +120,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 612.416687, 596.500122, 110.0, 22.0 ],
+					"patching_rect" : [ 612.416687, 596.500122, 121.0, 22.0 ],
 					"style" : "",
-					"text" : "s intervalStartTime"
+					"text" : "s setDayOfTheWeek"
 				}
 
 			}
@@ -236,15 +236,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 302.666656, 526.900024, 134.0, 22.0 ],
+					"patching_rect" : [ 302.666656, 526.900024, 138.0, 22.0 ],
 					"restore" : [ 30 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr exhibitStartTimeM",
-					"varname" : "exhibitStartTimeM"
+					"text" : "pattr intervalStartTimeM",
+					"varname" : "intervalStartTimeM"
 				}
 
 			}
@@ -255,28 +255,28 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 302.666656, 493.899994, 133.0, 22.0 ],
+					"patching_rect" : [ 302.666656, 493.899994, 137.0, 22.0 ],
 					"restore" : [ 7 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr exhibitStartTimeH",
-					"varname" : "exhibitStartTimeH"
+					"text" : "pattr intervalStartTimeH",
+					"varname" : "intervalStartTimeH"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.0, 583.699951, 130.0, 45.0 ],
+					"patching_rect" : [ 87.0, 583.699951, 134.0, 72.0 ],
 					"style" : "",
-					"text" : "開館時刻になったら，曜日に応じて保存したパターンを呼び出す．"
+					"text" : "泡がある程度成長したら，曜日に応じて(= 終了時刻に応じて)保存したパターンを呼び出す．"
 				}
 
 			}
@@ -312,9 +312,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.0, 551.0, 95.0, 22.0 ],
+					"patching_rect" : [ 87.0, 551.0, 83.0, 22.0 ],
 					"style" : "",
-					"text" : "s startExhibition"
+					"text" : "s startInterval"
 				}
 
 			}
@@ -1167,8 +1167,9 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1180,10 +1181,9 @@
 									}
 ,
 									"fontname" : [ "Open Sans Semibold" ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1192,9 +1192,9 @@
 , 							{
 								"name" : "Tomoya",
 								"default" : 								{
-									"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
 									"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
-									"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+									"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -1206,10 +1206,10 @@
 									}
 ,
 									"fontname" : [ "Lucida Grande" ],
+									"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
 									"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1382,15 +1382,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 751.666626, 164.0, 120.0, 22.0 ],
+					"patching_rect" : [ 751.666626, 164.0, 94.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr endTimeMinute",
-					"varname" : "endTimeMinute"
+					"text" : "pattr endTimeM",
+					"varname" : "endTimeM"
 				}
 
 			}
@@ -1401,15 +1401,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 751.666626, 134.0, 110.0, 22.0 ],
+					"patching_rect" : [ 751.666626, 134.0, 93.0, 22.0 ],
 					"restore" : [ 18 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr endTimeHour",
-					"varname" : "endTimeHour"
+					"text" : "pattr endTimeH",
+					"varname" : "endTimeH"
 				}
 
 			}
@@ -1420,15 +1420,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 751.666626, 104.0, 123.0, 22.0 ],
+					"patching_rect" : [ 751.666626, 104.0, 97.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr startTimeMinute",
-					"varname" : "startTimeMinute"
+					"text" : "pattr startTimeM",
+					"varname" : "startTimeM"
 				}
 
 			}
@@ -1439,15 +1439,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 751.666626, 74.0, 113.0, 22.0 ],
+					"patching_rect" : [ 751.666626, 74.0, 96.0, 22.0 ],
 					"restore" : [ 7 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr startTimeHour",
-					"varname" : "startTimeHour"
+					"text" : "pattr startTimeH",
+					"varname" : "startTimeH"
 				}
 
 			}
@@ -1968,7 +1968,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
-					"midpoints" : [ 808.166626, 106.166695, 570.75, 106.166695 ],
+					"midpoints" : [ 799.666626, 106.166695, 570.75, 106.166695 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -2270,7 +2270,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"midpoints" : [ 813.166626, 136.0, 732.958313, 136.0, 732.958313, 106.333389, 652.75, 106.333389 ],
+					"midpoints" : [ 800.166626, 136.0, 732.958313, 136.0, 732.958313, 106.333389, 652.75, 106.333389 ],
 					"source" : [ "obj-72", 1 ]
 				}
 
@@ -2278,7 +2278,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"midpoints" : [ 811.666626, 213.666687, 652.75, 213.666687 ],
+					"midpoints" : [ 798.666626, 213.666687, 652.75, 213.666687 ],
 					"source" : [ "obj-74", 1 ]
 				}
 
@@ -2286,7 +2286,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
-					"midpoints" : [ 806.666626, 212.000015, 570.75, 212.000015 ],
+					"midpoints" : [ 798.166626, 212.000015, 570.75, 212.000015 ],
 					"source" : [ "obj-83", 1 ]
 				}
 
@@ -2331,8 +2331,9 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2344,10 +2345,9 @@
 					}
 ,
 					"fontname" : [ "Open Sans Semibold" ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2356,9 +2356,9 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
-					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
 					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
-					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -2370,10 +2370,10 @@
 					}
 ,
 					"fontname" : [ "Lucida Grande" ],
+					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

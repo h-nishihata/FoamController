@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1501.0, 967.0 ],
+		"rect" : [ 34.0, 79.0, 1851.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,28 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bubbleside" : 0,
-					"id" : "obj-19",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1943.126343, 529.0, 130.899933, 32.0 ],
-					"style" : "",
-					"text" : "アプリ起動時に値だけセットしておく．"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1941.859619, 495.200073, 107.0, 22.0 ],
+					"patching_rect" : [ 1941.859619, 495.200073, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "r intervalStartTime"
+					"text" : "r setDayOfTheWeek"
 				}
 
 			}
@@ -277,7 +263,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 79.0, 1372.0, 787.0 ],
+						"rect" : [ 400.0, 294.0, 1372.0, 787.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -993,8 +979,9 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1006,10 +993,9 @@
 									}
 ,
 									"fontname" : [ "Open Sans Semibold" ],
-									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1018,9 +1004,9 @@
 , 							{
 								"name" : "Tomoya",
 								"default" : 								{
-									"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
 									"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
-									"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+									"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
+									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -1032,10 +1018,10 @@
 									}
 ,
 									"fontname" : [ "Lucida Grande" ],
+									"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
 									"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-									"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-									"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1097,7 +1083,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1636.966553, 816.766663, 90.0, 22.0 ],
 					"style" : "",
-					"text" : "writejson"
+					"text" : "clientwindow"
 				}
 
 			}
@@ -1123,7 +1109,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1636.966553, 854.166687, 105.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 45, 358, 173 ],
+						"client_rect" : [ 209, 45, 1132, 1032 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
@@ -1168,7 +1154,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1837.966553, 568.866699, 24.0, 22.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "1"
 				}
 
 			}
@@ -1191,9 +1178,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1837.966553, 495.200073, 93.0, 22.0 ],
+					"patching_rect" : [ 1837.966553, 495.200073, 81.0, 22.0 ],
 					"style" : "",
-					"text" : "r startExhibition"
+					"text" : "r startInterval"
 				}
 
 			}
@@ -2654,8 +2641,9 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
 					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2667,10 +2655,9 @@
 					}
 ,
 					"fontname" : [ "Open Sans Semibold" ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2679,9 +2666,9 @@
 , 			{
 				"name" : "Tomoya",
 				"default" : 				{
-					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
 					"textcolor_inverse" : [ 0.541176, 0.815686, 0.913725, 1.0 ],
-					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+					"selectioncolor" : [ 0.905882, 0.797584, 0.522994, 1.0 ],
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
@@ -2693,10 +2680,10 @@
 					}
 ,
 					"fontname" : [ "Lucida Grande" ],
+					"patchlinecolor" : [ 0.317647, 0.654902, 0.976471, 0.9 ],
+					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ],
 					"textcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
-					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"bgcolor" : [ 0.285714, 0.256629, 0.217237, 1.0 ]
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
